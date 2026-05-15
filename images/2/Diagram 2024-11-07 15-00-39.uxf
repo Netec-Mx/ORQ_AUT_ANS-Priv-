@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>280</x><y>450</y><w>430</w><h>180</h></coordinates><panel_attributes>bg=white
+lt=-
+fontsize=25
+fg=blue
+**Microservice Client**
+
+RESTful
+GET, POST, PUT, DELETE
+
+port: 8082
+bg=#22660b</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>260</y><w>120</w><h>80</h></coordinates><panel_attributes>*SNYK*
+halign=center
+valign=center
+fontsize=24
+bg=#113a78
+fg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>260</y><w>140</w><h>80</h></coordinates><panel_attributes>*sonarqube*
+halign=center
+valign=center
+fontsize=24
+bg=#1b64d1
+fg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>330</y><w>150</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+*/analyze code/*</panel_attributes><additional_attributes>10;10;10;40;130;40;130;120</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>330</y><w>140</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+*/analyze code/*</panel_attributes><additional_attributes>120;10;120;40;20;40;20;120</additional_attributes></element></diagram>
